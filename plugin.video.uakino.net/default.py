@@ -12,13 +12,6 @@ common = XbmcHelpers
 import Translit as translit
 translit = translit.Translit(encoding='cp1251')
 
-try:
-    sys.path.append(os.path.dirname(__file__)+ '/../plugin.video.unified.search')
-    from unified_search import UnifiedSearch
-except:
-    pass
-
-
 class URLParser():
     def parse(self, string):
         links = re.findall(r'(?:http://|www.).*?["]', string)
