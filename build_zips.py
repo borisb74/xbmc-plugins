@@ -9,6 +9,7 @@ from xml.dom.minidom import parse
 EXCLUDE_EXTS = ['.pyc', '.pyo', '.swp']
 
 def generateZip(ADDON):
+	print "Processing: " + ADDON
 	# Parse addon.xml for version number
 	dom = parse("%s/addon.xml" % ADDON)
 	addon = dom.getElementsByTagName('addon')[0]
