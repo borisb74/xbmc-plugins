@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.mrstealth" name="BorisB74 XBMC Add-ons" version="1.0.4" provider-name="BorisB74">
+<addon id="repository.mrstealth" name="BorisB74 XBMC Add-ons" version="1.0.0" provider-name="BorisB74">
 	<extension point="xbmc.addon.repository" name="BorisB74 XBMC Add-ons Repository">
 		<info compressed="false">https://raw.github.com/borisb74/xbmc-plugins/master/addons.xml</info>
 		<checksum>https://raw.github.com/borisb74/xbmc-plugins/master/addons.xml.md5</checksum>

@@ -110,6 +110,22 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.borisb.uakino.net" name="Uakino.net (BorisB)" version="3.0.0" provider-name="BorisB">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmc.helpers" version="2.0.1" />
+    <import addon="script.module.xbmcswift2" version="2.4.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Новинки кино, мультфильмы, сериалы</summary>
+    <description>For personal use only</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.filin.tv" name="[B][COLOR CFFFFFFF]Filin.tv[/COLOR][/B]" version="1.2.9" provider-name="mrstealth">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -462,7 +478,7 @@
   </extension>
 </addon>
 
-<addon id="repository.mrstealth" name="BorisB74 XBMC Add-ons" version="1.0.4" provider-name="BorisB74">
+<addon id="repository.mrstealth" name="BorisB74 XBMC Add-ons" version="1.0.0" provider-name="BorisB74">
 	<extension point="xbmc.addon.repository" name="BorisB74 XBMC Add-ons Repository">
 		<info compressed="false">https://raw.github.com/borisb74/xbmc-plugins/master/addons.xml</info>
 		<checksum>https://raw.github.com/borisb74/xbmc-plugins/master/addons.xml.md5</checksum>
